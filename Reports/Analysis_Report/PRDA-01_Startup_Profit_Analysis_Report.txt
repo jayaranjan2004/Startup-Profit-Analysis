@@ -1,0 +1,38 @@
+PRDA-01 STARTUP PROFIT ANALYSIS REPORT
+
+Executive Summary
+This project analyzes investment spending and Profit using 50 startups. The aim is to explore relationships between R&D Spend, Administration, Marketing Spend and Profit, compare state averages, and fit a multiple linear regression model.
+
+Dataset
+50 records, fields: R&D Spend, Administration, Marketing Spend, State, Profit.
+
+Key metrics
+Total Profit: $5,600,631.96
+Average Profit: $112,012.64
+Total R&D Spend: $3,686,080.78
+R&D Spend–Profit correlation: 0.9729
+Florida average Profit: $118,774.02
+
+Regression model
+Profit = 50,122.19299 + (0.805715050 × R&D Spend) + (-0.026815968 × Administration) + (0.027228065 × Marketing Spend)
+
+Model performance
+R²: 0.950745994 (95.07%)
+MAE: $6,471.45040
+MSE: 78,417,126.01913
+RMSE: $8,855.34449
+
+Insights & Recommendations
+- R&D Spend has the strongest positive correlation with Profit in this sample; explore investment opportunities and monitor ROI.
+- Florida has the highest average Profit in the dataset; investigate context before drawing conclusions.
+- Monitor spending efficiency; correlation is not causation.
+- Validate the regression model on unseen data before using it for decisions.
+
+Limitations
+- Only 50 observations.
+- Correlation does not prove causality.
+- Model fit on the sample does not guarantee generalization.
+- Additional business context and validation are needed.
+
+Conclusion
+R&D Spend is the strongest spending-related correlate of Profit in this sample. State-level profit differences and regression results provide exploratory insights, not causal or guaranteed predictive conclusions.
